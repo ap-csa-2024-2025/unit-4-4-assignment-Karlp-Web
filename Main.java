@@ -16,10 +16,4 @@ public class Main
       System.out.println("p followed by a vowel appears" + count + "times");
    }
   }
-
-  public static boolean isPrime(int N)
-  {
-    // TODO: Replace and write your code below
-    return false;
-  }
 }
