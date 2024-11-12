@@ -4,9 +4,11 @@ public class Main
 {
   public static void main(String[] args)
   {
-    // You can test your method here
-    // System.out.println(isPrime(1));
-    // System.out.println(isPrime(17));
+    String word = "Peter Piper picked a pack of pickle peppers";
+    for (int i = 0; i < word.length() - 1; i++)
+    {
+      System.out.println(word.substring(i, i + 2));
+    }
   }
 
   public static boolean isPrime(int N)
