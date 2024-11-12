@@ -4,10 +4,10 @@ public class Main
 {
   public static void main(String[] args)
   {
-    String word = "Peter Piper picked a pack of pickle peppers";
-    for (int i = 0; i < word.length() - 1; i++)
+    String sentence = "Peter Piper picked a pack of pickle peppers";
+    for (int i = 0; i < sentence.length() - 1; i++)
     {
-      System.out.println(word.substring(i, i + 2));
+      System.out.println(sentence.substring(i, i + 2));
     }
   }
 
