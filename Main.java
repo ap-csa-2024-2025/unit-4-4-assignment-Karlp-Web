@@ -23,7 +23,7 @@ public class Main
     String s2 = "atrophy";
     String output = "";
 
-    if (s1.length() == s2.lenght())
+    if (s1.length() == s2.length())
     {
       for (int i - s2.length()-1; i >= 0; i--)
       {
