@@ -17,6 +17,13 @@ public class Main
 //    }
 //   } 
 
+
+
+
+
+
+
+
   public static void main(string[] args)
   {
     String s1 = "balloon";
@@ -25,8 +32,8 @@ public class Main
 
     if (s1.length() == s2.length())
     {
-      for (int i - s2.length()-1; i >= 0; i--)
-      {
+      for (int i = s2.length()-1; i >= 0; i--)
+      
         String L1 = s1.substring(i, i + 1);
         String L2 = s2.substring(i, i + 1);
         output += (L2 + L1);
